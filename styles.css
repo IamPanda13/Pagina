@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #099ecf, #cf2a6f);
+    /* Para hacer el degradado de fondo en toda la pantalla */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Definición de la animación */
+@keyframes moveHeader {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* Aplicar la animación al encabezado */
+    animation: moveHeader .3s ease-out;
+    h1 {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0; 
+        margin-top: 5px; 
+        margin-bottom: 5px; 
+    } 
+}
+
+.imagen-pequena {
+    width: 150px; /* Tamaño deseado en píxeles */
+    height: auto; /* Esto mantendrá la proporción de aspecto */
+}  
+.imagen-izquierda {
+    width: 283px;
+    position: absolute; /* Establece el posicionamiento absoluto para la imagen */
+    height: auto; 
+    top: 0; /* Posición en la parte superior */
+    left: 0; /* Posición en la parte izquierda */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    /* Establecer transición para el cambio de posición */
+    transition: transform 0.3s ease-out;
+}
+
+
+nav ul li a {
+    color: #fff; /* Cambia el color del texto */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
