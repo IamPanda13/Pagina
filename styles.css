@@ -1,4 +1,5 @@
 /* styles.css */
+/*centrado del carrusel de las imagenes*/
 .container {
     max-width: 1200px;
     margin: auto;
@@ -21,6 +22,9 @@ body {
     p {
         margin-bottom: 20px;
     }
+}
+.section{
+    margin-bottom: 200px;
 }
 
 /*animacion del fondo*/

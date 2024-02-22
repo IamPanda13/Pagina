@@ -12,7 +12,7 @@
     width: 500px;
     height: 480px;
     background-color: #099ecf;
-    box-shadow: 0 30px 50px #099ecf;
+    box-shadow: 0 10px 20px #099ecf;
 }
 
 .container .slide .item {
@@ -22,7 +22,7 @@
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 20px;
-    box-shadow: 0 30px 50px #505050;
+    box-shadow: 0 10px 20px #505050;
     background-position: 50% 50%;
     background-position: 50% 50%;
     display: inline-block;
