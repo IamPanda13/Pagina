@@ -7,7 +7,7 @@
 }
 .container {
     position: relative;
-    width: 800px;
+    width: 500px;
     height: 480px;
     background-color: #099ecf;
     box-shadow: 0 30px 50px #099ecf;
@@ -41,7 +41,7 @@
 }
 
 .slide .item:nth-child(4) {
-    left: calc(95% + 210px);
+    left: calc(10% + 210px);
 }
 
 .slide .item:nth-child(5) {

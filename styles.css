@@ -1,10 +1,15 @@
 /* styles.css */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #099ecf, #cf2a6f);
     /* Para hacer el degradado de fondo en toda la pantalla */
     background-size: cover;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
