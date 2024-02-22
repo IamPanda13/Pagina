@@ -11,6 +11,54 @@ body {
     background-size: cover;
     margin: auto;
     padding: 0;
+
+    h1,
+    h2,
+    h3 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+/*animacion del fondo*/
+body {
+    background-image: linear-gradient(10deg, #099ecf 0%, #cf2a6f 25%, #099ecf 50%, #cf2a6f 100%);
+    animation: unicorn-slide 10s ease infinite;
+    -webkit-animation: unicorn-slide 10s ease infinite;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes unicorn-slide {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-webkit-keyframes unicorn-slide {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 /* Definición de la animación */
@@ -18,6 +66,7 @@ body {
     0% {
         transform: translateY(-100%);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -31,27 +80,34 @@ header {
     text-align: center;
     /* Aplicar la animación al encabezado */
     animation: moveHeader .3s ease-out;
+
     h1 {
         margin: 0;
     }
 
     h3 {
-        margin: 0; 
-        margin-top: 5px; 
-        margin-bottom: 5px; 
-    } 
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 .imagen-pequena {
-    width: 150px; /* Tamaño deseado en píxeles */
-    height: auto; /* Esto mantendrá la proporción de aspecto */
-}  
+    width: 150px;
+    /* Tamaño deseado en píxeles */
+    height: auto;
+    /* Esto mantendrá la proporción de aspecto */
+}
+
 .imagen-izquierda {
     width: 283px;
-    position: absolute; /* Establece el posicionamiento absoluto para la imagen */
-    height: auto; 
-    top: 0; /* Posición en la parte superior */
-    left: 0; /* Posición en la parte izquierda */
+    position: absolute;
+    /* Establece el posicionamiento absoluto para la imagen */
+    height: auto;
+    top: 0;
+    /* Posición en la parte superior */
+    left: 0;
+    /* Posición en la parte izquierda */
 }
 
 body {
@@ -78,7 +134,8 @@ nav ul li {
 
 
 nav ul li a {
-    color: #fff; /* Cambia el color del texto */
+    color: #fff;
+    /* Cambia el color del texto */
     text-decoration: none;
 }
 
