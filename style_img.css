@@ -48,6 +48,9 @@
 }
 
 .slide .item:nth-child(5) {
+    left: calc(95% + 450px);
+}
+.slide .item:nth-child(6) {
     left: calc(95% + 610px);
     opacity: 0;
 }
