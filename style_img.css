@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*el contenedor y los limites*/
 .container {
     position: relative;
     width: 500px;
@@ -28,7 +28,7 @@
     display: inline-block;
     transition: 0.5s;
 }
-
+/*ubicacion de las imagenes*/
 .slide .item:nth-child(1),
 .slide .item:nth-child(2) {
     top: 0;
