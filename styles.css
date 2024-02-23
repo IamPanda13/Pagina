@@ -13,18 +13,38 @@ body {
     margin: auto;
     padding: 0;
 
-    h1,
-    h2,
-    h3 {
-        margin-bottom: 10px;
-    }
-
-    p {
-        margin-bottom: 20px;
-    }
+    h1, h2, h3, h4, h5, h6, p, li, ul, img {
+        margin-bottom: 10px; /* Agrega un buen margen en la parte inferior de cada encabezado */
+        line-height: 1.5; /* Interlineado adecuado para una mejor legibilidad */
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-left: 30px;  
+      }
+  
+      h1 {
+        font-size: 36px; /* Tamaño de letra grande para el encabezado principal */
+      }
+      h2 {
+        font-size: 30px; /* Tamaño de letra grande para el segundo nivel de encabezado */
+      }
+      h3 {
+        font-size: 24px; /* Tamaño de letra mediano para el tercer nivel de encabezado */
+      }
+      h4, p, li {
+        font-size: 20px; /* Tamaño de letra mediano para el cuarto nivel de encabezado */
+        text-align: justify;
+      }
+      h5 {
+        font-size: 18px; /* Tamaño de letra pequeño para el quinto nivel de encabezado */
+        text-align: justify;
+      }
+      h6 {
+        font-size: 16px; /* Tamaño de letra pequeño para el sexto nivel de encabezado */
+        
+      }
 }
 .section{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 /*animacion del fondo*/
@@ -104,7 +124,9 @@ header {
 }
 
 .imagen-izquierda {
-    width: 283px;
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 300px;
     position: absolute;
     /* Establece el posicionamiento absoluto para la imagen */
     height: auto;
@@ -118,7 +140,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    padding: 1000;
 }
 
 /* Estilos para la barra de navegación */
