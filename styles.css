@@ -30,7 +30,7 @@ body {
       h3 {
         font-size: 24px; /* Tamaño de letra mediano para el tercer nivel de encabezado */
       }
-      h4, p, li {
+      h4, li {
         font-size: 20px; /* Tamaño de letra mediano para el cuarto nivel de encabezado */
         text-align: justify;
       }
@@ -41,6 +41,9 @@ body {
       h6 {
         font-size: 16px; /* Tamaño de letra pequeño para el sexto nivel de encabezado */
         
+      }
+      p{
+        font-size: 20px; /* Tamaño de letra mediano para el cuarto nivel de encabezado */
       }
 }
 .section{
