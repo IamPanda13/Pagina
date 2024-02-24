@@ -52,7 +52,7 @@ body {
 
 /*animacion del fondo*/
 body {
-    background-image: linear-gradient(10deg, #099ecf 0%, #cf2a6f 25%, #099ecf 50%, #cf2a6f 100%);
+    background-image: linear-gradient(deg, #099ecf 0%, #cf2a6f 25%, #099ecf 50%, #cf2a6f 100%);
     animation: unicorn-slide 10s ease infinite;
     -webkit-animation: unicorn-slide 10s ease infinite;
     background-size: 100% 100%;
