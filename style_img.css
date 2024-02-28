@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*el contenedor y los limites*/
 .container {
     position: relative;
@@ -28,6 +29,7 @@
     display: inline-block;
     transition: 0.5s;
 }
+
 /*ubicacion de las imagenes*/
 .slide .item:nth-child(1),
 .slide .item:nth-child(2) {
@@ -50,6 +52,7 @@
 .slide .item:nth-child(5) {
     left: calc(95% + 450px);
 }
+
 .slide .item:nth-child(6) {
     left: calc(95% + 610px);
     opacity: 0;
@@ -122,11 +125,11 @@
     border: none;
     cursor: pointer;
     margin: 0 5px;
-    border: 1px solid #099ecf;
+    border: 1px solid #505050;
     transition: 0.3s;
 }
 
 .button button:hover {
-    background: #099ecf;
+    background: #505050;
     color: #505050;
 }
