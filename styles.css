@@ -10,8 +10,6 @@ body {
     background: linear-gradient(to right, #099ecf, #cf2a6f);
     /* Para hacer el degradado de fondo en toda la pantalla */
     background-size: cover;
-    margin: auto;
-    padding: 0;
 
     h1, h2, h3, h4, h5, h6, p, li, ul, img {
         margin-bottom: 10px; /* Agrega un buen margen en la parte inferior de cada encabezado */
@@ -19,84 +17,35 @@ body {
         padding-right: 20px;
         padding-bottom: 15px;
         padding-left: 30px;  
-      }
+    }
   
-      h1 {
+    h1 {
         font-size: 36px; /* Tamaño de letra grande para el encabezado principal */
-      }
-      h2 {
+    }
+    h2 {
         font-size: 30px; /* Tamaño de letra grande para el segundo nivel de encabezado */
-      }
-      h3 {
+    }
+    h3 {
         font-size: 24px; /* Tamaño de letra mediano para el tercer nivel de encabezado */
-      }
-      h4, li, div {
+    }
+    h4, li, div {
         font-size: 20px; /* Tamaño de letra mediano para el cuarto nivel de encabezado */
         text-align: justify;
-      }
-      h5 {
+    }
+    h5 {
         font-size: 18px; /* Tamaño de letra pequeño para el quinto nivel de encabezado */
         text-align: justify;
-      }
-      h6 {
-        font-size: 16px; /* Tamaño de letra pequeño para el sexto nivel de encabezado */
-        
-      }
-      p{
+    }
+    h6 {
+        font-size: 16px; /* Tamaño de letra pequeño para el sexto nivel de encabezado */   
+    }
+    p {
         font-size: 20px; /* Tamaño de letra mediano para el cuarto nivel de encabezado */
-      }
+    }
 }
-.section{
+
+.section {
     margin-bottom: 300px;
-}
-
-/*animacion del fondo*/
-body {
-    background-image: linear-gradient(deg, #099ecf 0%, #cf2a6f 25%, #099ecf 50%, #cf2a6f 100%);
-    animation: unicorn-slide 10s ease infinite;
-    -webkit-animation: unicorn-slide 10s ease infinite;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-}
-
-@keyframes unicorn-slide {
-    0% {
-        background-position: 0% 50%
-    }
-
-    50% {
-        background-position: 100% 50%
-    }
-
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@-webkit-keyframes unicorn-slide {
-    0% {
-        background-position: 0% 50%
-    }
-
-    50% {
-        background-position: 100% 50%
-    }
-
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-/* Definición de la animación */
-@keyframes moveHeader {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
 }
 
 /* Estilos para el encabezado */
@@ -107,16 +56,16 @@ header {
     text-align: center;
     /* Aplicar la animación al encabezado */
     animation: moveHeader .3s ease-out;
+}
 
-    h1 {
-        margin: 0;
-    }
+header h1 {
+    margin: 0;
+}
 
-    h3 {
-        margin: 0;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+header h3 {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .imagen-pequena {
@@ -127,8 +76,6 @@ header {
 }
 
 .imagen-izquierda {
-    padding-top: 30px;
-    padding-left: 15px;
     width: 300px;
     position: absolute;
     /* Establece el posicionamiento absoluto para la imagen */
@@ -139,13 +86,6 @@ header {
     /* Posición en la parte izquierda */
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 1000;
-}
-
 /* Estilos para la barra de navegación */
 nav ul {
     list-style-type: none;
@@ -153,14 +93,12 @@ nav ul {
     padding: 0;
 }
 
-
 nav ul li {
     display: inline;
     margin-right: 20px;
     /* Establecer transición para el cambio de posición */
     transition: transform 0.3s ease-out;
 }
-
 
 nav ul li a {
     color: #fff;
@@ -177,4 +115,87 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+@media only screen and (max-width: 450px) {
+    
+    body {
+        font-size: 16px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+
+    header {
+        background-color: #000000;
+        color: #fff;
+        padding: 0px;
+        text-align: center;
+        /* Aplicar la animación al encabezado */
+        animation: moveHeader .3s ease-out;
+    }
+    header h1 {
+        margin: 0;
+    }
+    
+    header h3 {
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 150px; /* Ajustar el ancho al 100% */
+        max-width: none; /* Eliminar el ancho máximo */
+        padding: 0 10px; /* Reducir el relleno en dispositivos móviles */
+        box-sizing: border-box; /* Incluir el padding en el cálculo del ancho */
+    }
+    img {
+        width: 350px; /* Ajustar el ancho al 100% */
+        max-width: none; /* Eliminar el ancho máximo */
+        padding: 0 10px; /* Reducir el relleno en dispositivos móviles */
+        box-sizing: border-box; /* Incluir el padding en el cálculo del ancho */
+    }
+
+    h1 {
+        font-size: 24px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+
+    h2 {
+        font-size: 20px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+
+    h3 {
+        font-size: 18px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+
+    p {
+        font-size: 16px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+    li {
+        font-size: 10px;
+        text-align: center; /* Centra el texto de los elementos <li> */
+        margin-bottom: 10px; /* Agrega un buen margen en la parte inferior de cada elemento <li> */
+        line-height: 1.5; /* Interlineado adecuado para una mejor legibilidad */
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-left: 30px;  
+    }
+    
+
+    .imagen-izquierda {
+        width: 35%; /* Haz que la imagen izquierda ocupe todo el ancho disponible */
+        max-width: 200px; /* Limita el ancho máximo de la imagen */
+        position: fixed; /* Cambia a posición fija para que se quede pegada a la izquierda */
+        top: 0; /* Ajusta la posición superior a 0 para que se alinee con la parte superior */
+        left: -30px; /* Ajusta la posición izquierda a 0 para que se pegue al borde izquierdo */
+    }
+    
+
+    nav ul li {
+        display: block; /* Cambia a bloques para que los elementos de navegación se apilen en dispositivos móviles */
+        margin: 10px 0; /* Agrega espacio entre elementos */
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
 }

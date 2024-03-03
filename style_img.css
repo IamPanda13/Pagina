@@ -136,3 +136,33 @@
     background: #505050;
     color: #505050;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 450px) {
+    .container {
+        height: auto;
+        /* Cambia la altura a auto para que se ajuste al contenido */
+    }
+
+    .container {
+        position: relative;
+        width: 340px;
+        height: 450px;
+        background-color: #099ecf;
+        box-shadow: 0 10px 20px #099ecf;
+    }
+
+    .item .content {
+        position: absolute;
+        top:30%;
+        left: 10px;
+        width: 0;
+        text-align: left;
+        color: #dd00ff;
+        transform: translate(0, 50%);
+        font-family: system-ui;
+        display: none;
+    }
+    
+
+}
